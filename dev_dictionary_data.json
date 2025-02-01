@@ -104,6 +104,13 @@
       "definition": "Software Development Kit - a collection of software development tools in one installable package",
       "example": "Android SDK, iOS SDK",
       "category": "Development Tools"
+    },
+    {
+      "id": 16,
+      "word": "DIC",
+      "definition": "Software Development Kit - a collection of software development tools in one installable package",
+      "example": "Android SDK, iOS SDK",
+      "category": "Development Tools"
     }
     
   ]
