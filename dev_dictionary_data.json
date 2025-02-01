@@ -97,13 +97,7 @@
       "definition": "Software Development Kit - a collection of software development tools in one installable package",
       "example": "Android SDK, iOS SDK",
       "category": "Development Tools"
-    },
-    {
-      "id": 15,
-      "word": "bjjbj",
-      "definition": "User Interface/User Experience - the visual elements and interaction experience of a software application",
-      "example": "Button layouts, Navigation flow",
-      "category": "Design"
     }
+    
   ]
 }
