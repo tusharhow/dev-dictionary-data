@@ -1,158 +1,68 @@
 {
   "words": [
-    {
-      "id": 1,
-      "word": "API",
-      "definition": "Application Programming Interface - a set of rules and protocols that allows different software applications to communicate with each other",
-      "example": "REST API, GraphQL API",
-      "category": "Software Architecture"
+   {
+        "id": 1,
+        "word": "Variable",
+        "definition": "একটি সংরক্ষিত মেমরি অবস্থান যা একটি নির্দিষ্ট মান ধারণ করতে পারে।",
+        "example": "int x = 10;",
+        "category": "প্রোগ্রামিং",
+        "translation": "ভেরিয়েবল"
     },
     {
-      "id": 2,
-      "word": "Algorithm",
-      "definition": "A step-by-step procedure or formula for solving a problem",
-      "example": "Sorting algorithms like QuickSort, Binary Search algorithm",
-      "category": "Computer Science"
+        "id": 2,
+        "word": "Function",
+        "definition": "একটি নির্দিষ্ট কাজ সম্পাদনের জন্য তৈরি কোড ব্লক যা প্রয়োজনে ডাকা যায়।",
+        "example": "def greet(): print('Hello')",
+        "category": "প্রোগ্রামিং",
+        "translation": "ফাংশন"
     },
     {
-      "id": 3,
-      "word": "Framework",
-      "definition": "A platform for developing software applications that provides a foundation on which software developers can build programs",
-      "example": "React, Angular, Spring Boot",
-      "category": "Software Development"
+        "id": 3,
+        "word": "Class",
+        "definition": "একটি অবজেক্ট তৈরির নকশা যা অবস্থা এবং আচরণ সংজ্ঞায়িত করে।",
+        "example": "class Car { var color: String }",
+        "category": "অবজেক্ট-ওরিয়েন্টেড প্রোগ্রামিং",
+        "translation": "ক্লাস"
     },
     {
-      "id": 4,
-      "word": "Git",
-      "definition": "A distributed version control system for tracking changes in source code during software development",
-      "example": "git commit, git push, git pull",
-      "category": "Version Control"
+        "id": 4,
+        "word": "Object",
+        "definition": "একটি নির্দিষ্ট ক্লাসের বাস্তবায়ন যা ডেটা এবং কার্যকলাপ সংরক্ষণ করে।",
+        "example": "Car myCar = Car();",
+        "category": "অবজেক্ট-ওরিয়েন্টেড প্রোগ্রামিং",
+        "translation": "অবজেক্ট"
     },
     {
-      "id": 5,
-      "word": "IDE",
-      "definition": "Integrated Development Environment - a software application that provides comprehensive facilities for software development",
-      "example": "Visual Studio Code, IntelliJ IDEA",
-      "category": "Development Tools"
+        "id": 5,
+        "word": "Encapsulation",
+        "definition": "একটি প্রক্রিয়া যেখানে ডেটা এবং সেটির সাথে সম্পর্কিত পদ্ধতিগুলো একত্রিত করা হয় এবং বাইরের অ্যাক্সেস সীমাবদ্ধ করা হয়।",
+        "example": "private int age;",
+        "category": "অবজেক্ট-ওরিয়েন্টেড প্রোগ্রামিং",
+        "translation": "এনক্যাপসুলেশন"
     },
     {
-      "id": 6,
-      "word": "Database",
-      "definition": "An organized collection of structured information or data typically stored electronically in a computer system",
-      "example": "MySQL, MongoDB, PostgreSQL",
-      "category": "Data Storage"
+        "id": 6,
+        "word": "API",
+        "definition": "একটি ইন্টারফেস যা সফটওয়্যার অ্যাপ্লিকেশনগুলোর মধ্যে ডেটা আদান-প্রদানের অনুমতি দেয়।",
+        "example": "fetch('https://api.example.com/data')",
+        "category": "ওয়েব ডেভেলপমেন্ট",
+        "translation": "এপিআই (API)"
     },
     {
-      "id": 7,
-      "word": "Debugging",
-      "definition": "The process of finding and fixing errors or bugs in software code",
-      "example": "Using breakpoints, console.log debugging",
-      "category": "Software Development"
+        "id": 7,
+        "word": "Framework",
+        "definition": "একটি নির্দিষ্ট প্রোগ্রামিং প্ল্যাটফর্ম যা উন্নয়ন প্রক্রিয়াকে দ্রুততর করে।",
+        "example": "Flutter, React, Django",
+        "category": "সফটওয়্যার ডেভেলপমেন্ট",
+        "translation": "ফ্রেমওয়ার্ক"
     },
     {
-      "id": 8,
-      "word": "HTTP",
-      "definition": "HyperText Transfer Protocol - the foundation of data communication for the World Wide Web",
-      "example": "HTTP GET, POST requests",
-      "category": "Web Development"
-    },
-    {
-      "id": 9,
-      "word": "JSON",
-      "definition": "JavaScript Object Notation - a lightweight data-interchange format that is easy for humans to read and write",
-      "example": "{ \"name\": \"John\", \"age\": 30 }",
-      "category": "Data Format"
-    },
-    {
-      "id": 10,
-      "word": "Cache",
-      "definition": "A hardware or software component that stores data for future requests to speed up subsequent retrievals",
-      "example": "Browser cache, Memory cache",
-      "category": "Computer Science"
-    },
-    {
-      "id": 11,
-      "word": "Middleware",
-      "definition": "Software that acts as a bridge between an operating system or database and applications",
-      "example": "Authentication middleware, Logging middleware",
-      "category": "Software Architecture"
-    },
-    {
-      "id": 12,
-      "word": "OOP",
-      "definition": "Object-Oriented Programming - a programming paradigm based on the concept of objects containing data and code",
-      "example": "Classes, Inheritance, Polymorphism",
-      "category": "Programming Paradigm"
-    },
-    {
-      "id": 13,
-      "word": "REST",
-      "definition": "Representational State Transfer - an architectural style for distributed hypermedia systems",
-      "example": "RESTful APIs, REST endpoints",
-      "category": "Web Development"
-    },
-    {
-      "id": 14,
-      "word": "SDK",
-      "definition": "Software Development Kit - a collection of software development tools in one installable package",
-      "example": "Android SDK, iOS SDK",
-      "category": "Development Tools"
-    },
-    {
-      "id": 15,
-      "word": "Hello",
-      "definition": "Software Development Kit - a collection of software development tools in one installable package",
-      "example": "Android SDK, iOS SDK",
-      "category": "Development Tools"
-    },
-    {
-      "id": 16,
-      "word": "DIC",
-      "definition": "Software Development Kit - a collection of software development tools in one installable package",
-      "example": "Android SDK, iOS SDK",
-      "category": "Development Tools"
-    },
-    {
-      "id": 17,
-      "word": "Dep",
-      "definition": "S stallable package",
-      "example": "And iOS SDK",
-      "category": "  Tools"
-    },
-    {
-      "id": 18,
-      "word": "LpPPPPP",
-      "definition": "S d package",
-      "example": "And iOSdddSDK",
-      "category": "  Toodddddls"
-    },
-     {
-      "id": 19,
-      "word": "LLLLLLLLLL",
-      "definition": "S d SFFSF",
-      "example": "And FSFSFS",
-      "category": "  FSFSFSFF"
-    },
-    {
-      "id": 20,
-      "word": "Tydd",
-      "definition": "S ddd SFFSF",
-      "example": "And ddFSFSFS",
-      "category": "  FSddddFSFSFF"
-    },
-    {
-      "id": 21,
-      "word": "Tddddddddydd",
-      "definition": "S ddd SFFSF",
-      "example": "And ddFSFSFS",
-      "category": "  FSddddFSFSFF"
-    },
-    {
-      "id": 22,
-      "word": "P",
-      "definition": "S dddd SFFSF",
-      "example": "And dddFSFSFS",
-      "category": "  FdSddddFSFSFF"
+        "id": 8,
+        "word": "Algorithm",
+        "definition": "একটি নির্দিষ্ট সমস্যার সমাধানের জন্য সুসংগঠিত ধাপে ধাপে নির্দেশনা।",
+        "example": "Binary Search Algorithm",
+        "category": "কম্পিউটার বিজ্ঞান",
+        "translation": "অ্যালগরিদম"
     }
     
   ]
