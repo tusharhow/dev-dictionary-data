@@ -2,55 +2,146 @@
   "words": [
   {
     "id": 1,
-    "word": "API",
-    "definition": "এপিআই (অ্যাপ্লিকেশন প্রোগ্রামিং ইন্টারফেস) হল সফটওয়্যার কম্পোনেন্টগুলির মধ্যে সংযোগ স্থাপনের জন্য নিয়ম ও প্রোটোকলের সমষ্টি। এটি বিভিন্ন সিস্টেমকে একে অপরের সাথে ডেটা বিনিময় করতে সাহায্য করে।",
-    "example": "ওয়েদার অ্যাপটি সাধারণত একটি থার্ড-পার্টি API ব্যবহার করে বর্তমান আবহাওয়ার তথ্য সংগ্রহ করে।",
-    "category": "Web Development",
-    "translation": "অ্যাপ্লিকেশন প্রোগ্রামিং ইন্টারফেস"
+    "word": "Algorithm",
+    "definition": "গাণিতিক সমস্যা সমাধানের জন্য ধাপে ধাপে নির্দেশাবলীর সেট।",
+    "example": "সর্টিং অ্যালগরিদম ব্যবহার করে ডাটা সাজানো হয় যেমন: Bubble Sort, Quick Sort",
+    "category": "Programming Basics",
+    "translation": "অ্যালগরিদম"
   },
   {
     "id": 2,
-    "word": "Framework",
-    "definition": "ফ্রেমওয়ার্ক হল প্রি-রাইটেন কোডের একটি কাঠামো যা ডেভেলপারদের জন্য স্ট্যান্ডার্ড উপায়ে সফটওয়্যার তৈরি করতে সাহায্য করে।",
-    "example": "ডjango পাইথন ভাষায় লেখা একটি জনপ্রিয় ওয়েব ফ্রেমওয়ার্ক।",
-    "category": "Programming",
-    "translation": "কাঠামো"
+    "word": "Variable",
+    "definition": "প্রোগ্রামে ডাটা সংরক্ষণের জন্য নামযুক্ত স্থান।",
+    "example": "int age = 25; এখানে 'age' একটি ভেরিয়েবল",
+    "category": "Programming Basics",
+    "translation": "পরিবর্তনশীল"
   },
   {
     "id": 3,
-    "word": "Closure",
-    "definition": "ক্লোজার হল একটি ফাংশন যে নিজের স্কোপের বাইরের ভেরিয়েবলগুলিকে মনে রাখে এবং এক্সেস করতে পারে।",
-    "example": "জাভাস্ক্রিপ্টে, ক্লোজার ব্যবহার করে প্রাইভেট ভেরিয়েবল তৈরি করা যায়।",
-    "category": "Programming Concepts"
+    "word": "Loop",
+    "definition": "নির্দিষ্ট শর্ত পূরণ না হওয়া পর্যন্ত কোড ব্লক বারবার চালানোর পদ্ধতি।",
+    "example": "for লুপ ব্যবহার করে ১ থেকে ১০ পর্যন্ত সংখ্যা প্রিন্ট করা",
+    "category": "Control Structures"
   },
   {
     "id": 4,
-    "word": "Debugging",
-    "definition": "ডিবাগিং হল প্রোগ্রামের ত্রুটিগুলি সনাক্তকরণ ও সমাধান করার প্রক্রিয়া।",
-    "example": "ডেভেলপাররা সাধারণত ব্রেকপয়েন্ট ব্যবহার করে কোড ডিবাগ করে থাকে।",
-    "category": "General Programming",
-    "translation": "ত্রুটি সংশোধন"
+    "word": "Function",
+    "definition": "একটি পুনরায় ব্যবহারযোগ্য কোড ব্লক যেটি নির্দিষ্ট কাজ সম্পাদন করে।",
+    "example": "function add(a, b) { return a + b; }",
+    "category": "Programming Basics"
   },
   {
     "id": 5,
-    "word": "Database Index",
-    "definition": "ডাটাবেস ইন্ডেক্স হল একটি বিশেষ ডাটা স্ট্রাকচার যা ডাটাবেসে ডেটা দ্রুত অনুসন্ধান করতে সাহায্য করে।",
-    "example": "প্রাইমারি কী ব্যবহার করে টেবিলে স্বয়ংক্রিয়ভাবে একটি ইন্ডেক্স তৈরি হয়।",
-    "category": "Database"
+    "word": "API",
+    "definition": "সফটওয়্যার কম্পোনেন্টগুলির মধ্যে যোগাযোগের জন্য নিয়মসমূহ।",
+    "example": "Google Maps API ব্যবহার করে মানচিত্র সংযোজন",
+    "category": "Web Services"
   },
   {
     "id": 6,
-    "word": "Recursion",
-    "definition": "রিকার্শন হল একটি প্রোগ্রামিং কৌশল যেখানে একটি ফাংশন নিজেকে বারবার কল করে সমস্যা সমাধান করে।",
-    "example": "ফিবোনাচি সিকোয়েন্স ক্যালকুলেশন রিকার্শন ব্যবহার করে সহজেই বাস্তবায়ন করা যায়।",
-    "category": "Algorithms"
+    "word": "Database",
+    "definition": "ডিজিটালভাবে ডাটা সংগঠিতভাবে সংরক্ষণের পদ্ধতি।",
+    "example": "MySQL, MongoDB জনপ্রিয় ডাটাবেস",
+    "category": "Database",
+    "translation": "তথ্যাগার"
   },
   {
     "id": 7,
-    "word": "Middleware",
-    "definition": "মিডলওয়্যার হল সফটওয়্যার যা অ্যাপ্লিকেশন এবং অপারেটিং সিস্টেমের মধ্যে কাজ করে রিকোয়েস্ট প্রসেসিং ম্যানেজ করে।",
-    "example": "এক্সপ্রেস.জেএস একটি জনপ্রিয় Node.js মিডলওয়্যার ফ্রেমওয়ার্ক।",
+    "word": "Debugging",
+    "definition": "কোডের ভুল খুঁজে বের করে সংশোধন করার প্রক্রিয়া।",
+    "example": "প্রিন্ট স্টেটমেন্ট ব্যবহার করে ভেরিয়েবলের মান ট্র্যাক করা",
+    "category": "Development Tools"
+  },
+  {
+    "id": 8,
+    "word": "Git",
+    "definition": "কোডের ভার্সন কন্ট্রোল করার জন্য একটি সিস্টেম।",
+    "example": "git commit -m 'নতুন ফিচার যুক্ত করা হয়েছে'",
+    "category": "Version Control"
+  },
+  {
+    "id": 9,
+    "word": "Framework",
+    "definition": "প্রোগ্রামিং এর জন্য প্রি-বিল্ট কম্পোনেন্টের সংগ্রহ।",
+    "example": "Django (পাইথন), React (জাভাস্ক্রিপ্ট)",
+    "category": "Software Tools"
+  },
+  {
+    "id": 10,
+    "word": "Syntax",
+    "definition": "প্রোগ্রামিং ভাষার ব্যাকরণ বা লেখার নিয়ম।",
+    "example": "জাভাস্ক্রিপ্টে প্রতিটি স্টেটমেন্ট শেষে সেমিকোলন দেয়া ঐচ্ছিক",
+    "category": "Programming Basics"
+  },
+  {
+    "id": 11,
+    "word": "Backend",
+    "definition": "ওয়েবসাইটের সার্ভার সাইড লজিক এবং ডাটাবেস ম্যানেজমেন্ট।",
+    "example": "Node.js বা Python ব্যবহার করে ব্যাকেন্ড ডেভেলপমেন্ট",
     "category": "Web Development"
+  },
+  {
+    "id": 12,
+    "word": "Frontend",
+    "definition": "ব্যবহারকারী সরাসরি দেখতে এবং ইন্টারঅ্যাক্ট করে এমন অংশ।",
+    "example": "HTML, CSS এবং JavaScript ব্যবহার করে ফ্রন্টেন্ড ডিজাইন",
+    "category": "Web Development"
+  },
+  {
+    "id": 13,
+    "word": "Responsive Design",
+    "definition": "সব ডিভাইসে ওয়েবসাইটের লেআউট স্বয়ংক্রিয়ভাবে এডজাস্ট হওয়া।",
+    "example": "মোবাইল ফোনে ওয়েবসাইটের মেনু বার্গার আইকনে পরিণত হয়",
+    "category": "Web Design"
+  },
+  {
+    "id": 14,
+    "word": "Cloud Computing",
+    "definition": "ইন্টারনেটের মাধ্যমে কম্পিউটিং সার্ভিস ব্যবহার করা।",
+    "example": "AWS, Google Cloud প্লাটফর্ম",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 15,
+    "word": "Machine Learning",
+    "definition": "কম্পিউটারকে স্বয়ংক্রিয়ভাবে শেখানোর কৌশল।",
+    "example": "ইমেইল স্পাম ফিল্টারিং সিস্টেম",
+    "category": "AI"
+  },
+  {
+    "id": 16,
+    "word": "API Endpoint",
+    "definition": "একটি নির্দিষ্ট URL যেখানে API রিকোয়েস্ট পাঠানো হয়।",
+    "example": "https://api.example.com/users",
+    "category": "Web Services"
+  },
+  {
+    "id": 17,
+    "word": "DevOps",
+    "definition": "সফটওয়্যার ডেভেলপমেন্ট এবং আইটি অপারেশনের সমন্বয়।",
+    "example": "Docker এবং Jenkins ব্যবহার করে CI/CD পাইপলাইন",
+    "category": "Methodology"
+  },
+  {
+    "id": 18,
+    "word": "JSON",
+    "definition": "ডাটা বিনিময়ের জন্য হালকা ওয়েট ফরম্যাট।",
+    "example": "{ \"name\": \"John\", \"age\": 30 }",
+    "category": "Data Format"
+  },
+  {
+    "id": 19,
+    "word": "Package Manager",
+    "definition": "সফটওয়্যার প্যাকেজ ইনস্টল ও ম্যানেজ করার টুল।",
+    "example": "npm (Node.js), pip (Python)",
+    "category": "Development Tools"
+  },
+  {
+    "id": 20,
+    "word": "Open Source",
+    "definition": "যে সফটওয়্যারের সোর্স কোড সবার জন্য উন্মুক্ত।",
+    "example": "Linux অপারেটিং সিস্টেম",
+    "category": "Software Licensing"
   }
   ]
 }
