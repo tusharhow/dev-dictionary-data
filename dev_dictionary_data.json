@@ -142,6 +142,84 @@
     "definition": "যে সফটওয়্যারের সোর্স কোড সবার জন্য উন্মুক্ত।",
     "example": "Linux অপারেটিং সিস্টেম",
     "category": "Software Licensing"
+  },
+     {
+    "id": 21,
+    "word": "Cache",
+    "definition": "ডাটা অস্থায়ীভাবে সংরক্ষণের জন্য হাই-স্পিড স্টোরেজ এলাকা",
+    "example": "ব্রাউজার ক্যাশে ওয়েবপেজ লোডিং স্পিড বাড়ায়",
+    "category": "Performance",
+    "translation": "অস্থায়ী সংরক্ষণাগার"
+  },
+  {
+    "id": 22,
+    "word": "Cookie",
+    "definition": "ব্যবহারকারীর ব্রাউজারে সংরক্ষিত ছোট টেক্সট ফাইল",
+    "example": "লগইন স্টেট মেইন্টেন করার জন্য কুকি ব্যবহৃত হয়",
+    "category": "Web Development"
+  },
+  {
+    "id": 23,
+    "word": "Compiler",
+    "definition": "সোর্স কোডকে মেশিন কোডে রূপান্তর করার প্রোগ্রাম",
+    "example": "GCC সি/সি++ কম্পাইলারের জন্য জনপ্রিয় টুল",
+    "category": "Programming Tools",
+    "translation": "সংকলক"
+  },
+  {
+    "id": 24,
+    "word": "Encryption",
+    "definition": "ডাটাকে গুপ্তরূপে পরিবর্তন করার পদ্ধতি",
+    "example": "SSL/TLS ব্যবহার করে ডাটা এনক্রিপ্ট করা হয়",
+    "category": "Cybersecurity",
+    "translation": "গুপ্তকরণ"
+  },
+  {
+    "id": 25,
+    "word": "DNS",
+    "definition": "ডোমেইন নামকে আইপি এড্রেসে রূপান্তর করার সিস্টেম",
+    "example": "google.com → 172.217.166.110",
+    "category": "Networking",
+    "translation": "ডোমেইন নাম ব্যবস্থা"
+  },
+  {
+    "id": 26,
+    "word": "MVC",
+    "definition": "সফটওয়্যার ডিজাইনের জন্য আর্কিটেকচার প্যাটার্ন (Model-View-Controller)",
+    "example": "Ruby on Rails ফ্রেমওয়ার্কে MVC প্যাটার্ন ব্যবহার করা হয়",
+    "category": "Software Architecture"
+  },
+  {
+    "id": 27,
+    "word": "ORM",
+    "definition": "ডাটাবেসকে অবজেক্ট-ওরিয়েন্টেড উপায়ে ম্যানেজ করার টেকনিক",
+    "example": "Django-তে内置 ORM সিস্টেম আছে",
+    "category": "Database",
+    "translation": "বস্তু-সম্পর্কীয় ম্যাপিং"
+  },
+  {
+    "id": 28,
+    "word": "UI",
+    "definition": "ব্যবহারকারী এবং সিস্টেমের মধ্যে ইন্টারফেস",
+    "example": "বাটন, মেনু এবং আইকন UI এর অংশ",
+    "category": "Design",
+    "translation": "ব্যবহারকারী ইন্টারফেস"
+  },
+  {
+    "id": 29,
+    "word": "UX",
+    "definition": "ব্যবহারকারীর অভিজ্ঞতা ডিজাইন এবং অপ্টিমাইজ করার প্রক্রিয়া",
+    "example": "অ্যাপের নেভিগেশন সহজ করলে UX উন্নত হয়",
+    "category": "Design",
+    "translation": "ব্যবহারকারীর অভিজ্ঞতা"
+  },
+  {
+    "id": 30,
+    "word": "Firewall",
+    "definition": "নেটওয়ার্ক ট্রাফিক নিয়ন্ত্রণকারী সিকিউরিটি সিস্টেম",
+    "example": "ফায়ারওয়াল অননুমোদিত অ্যাক্সেস ব্লক করে",
+    "category": "Cybersecurity",
+    "translation": "অগ্নিপ্রাচীর"
   }
   ]
 }
