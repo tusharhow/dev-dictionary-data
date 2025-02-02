@@ -428,7 +428,7 @@
     {
       "id": 56,
       "word": "Coil",
-      "definition": "Kotlin-ফার্স্ট ইমেজ লোডিং লাইব্রেরি (Android)। Coroutine-ভিত্তিক async লোডিং এবং মেমোরি ক্যাশিং। Transformation API (CircleCrop, Grayscale) এবং placeholder সমর্থন। Jetpack Compose-এর সাথে ImageRequest.Builder ব্যবহার।",
+      "definition": "Kotlin-ফার্স্ট ইমেজ লোডিং লাইব্রেরি (Android, iOS)। Coroutine-ভিত্তিক async লোডিং এবং মেমোরি ক্যাশিং। Transformation API (CircleCrop, Grayscale) এবং placeholder সমর্থন। Jetpack Compose-এর সাথে ImageRequest.Builder ব্যবহার।",
       "example": "AsyncImage(model = \"https://...\", contentDescription = null)",
       "category": "Android Libraries",
       "translation": "কয়েল"
@@ -504,6 +504,170 @@
       "example": "document.getElementById('demo').innerHTML = 'Hello'",
       "category": "Programming Languages",
       "translation": "জাভাস্ক্রিপ্ট"
+    },{
+      "id": 66,
+      "word": "HTML",
+      "definition": "হাইপারটেক্সট মার্কআপ ল্যাঙ্গুয়েজ (W3C স্ট্যান্ডার্ড) - ওয়েব পেজ স্ট্রাকচার ডিফাইন করে। ট্যাগ-ভিত্তিক সিনট্যাক্স (<html>, <div>, <span>)। সিম্যান্টিক এলিমেন্ট (header, article, section) দিয়ে SEO অপ্টিমাইজেশন। Attributes (id, class) এবং DOM ট্রি স্ট্রাকচার ম্যানিপুলেশন।",
+      "example": "<!DOCTYPE html>\n<html>\n<head>\n  <title>পেজ টাইটেল</title>\n</head>\n<body>\n  <h1>হেডিং</h1>\n</body>\n</html>",
+      "category": "Web Development",
+      "translation": "এইচটিএমএল"
+    },
+    {
+      "id": 67,
+      "word": "CSS",
+      "definition": "ক্যাসকেডিং স্টাইল শীট (বক্স মডেল ম্যানেজমেন্ট)। সিলেক্টর (class, ID, pseudo-class) এবং প্রপার্টি (flex, grid, position) ব্যবহার। মিডিয়া কোয়েরি দিয়ে রেস্পন্সিভ ডিজাইন। ট্রানজিশন/অ্যানিমেশন এবং ভেরিয়েবল (CSS Custom Properties) সুবিধা। প্রিপ্রোসেসর (Sass/Less) দিয়ে নেস্টেড স্টাইলিং।",
+      "example": ".container {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 20px;\n}",
+      "category": "Web Development",
+      "translation": "সিএসএস"
+    },
+    {
+      "id": 68,
+      "word": "WebKit",
+      "definition": "ওপেন-সোর্স ব্রাউজার ইঞ্জিন (Apple-এর নেতৃত্বে)। HTML/CSS রেন্ডারিং এবং JavaScript এক্সিকিউশন হ্যান্ডেল করে। Safari, Mail.app এবং কিছু Linux অ্যাপে ব্যবহার। CSS এক্সটেনশন (-webkit-) দিয়ে এক্সপেরিমেন্টাল ফিচার সাপোর্ট। WKWebView দিয়ে iOS নেটিভ অ্যাপে ওয়েবভিউ ইমপ্লিমেন্টেশন।",
+      "example": "@media (-webkit-min-device-pixel-ratio: 2) { ... }",
+      "category": "Browser Technology",
+      "translation": "ওয়েবকিট"
+    },
+    {
+      "id": 69,
+      "word": "Bootstrap",
+      "definition": "টুইটার-ডেভেলপড ফ্রন্টএন্ড কম্পোনেন্ট লাইব্রেরি (মোবাইল-ফার্স্ট)। 12-কলাম রেস্পন্সিভ গ্রিড সিস্টেম। প্রি-বিল্ট কম্পোনেন্ট (কার্ড, ন্যাভবার, মোডাল) এবং ইউটিলিটি ক্লাস (spacing, shadows)। JavaScript প্লাগইন (টুলটিপ, পপওভার) এবং থিমিং সাপোর্ট।",
+      "example": "<div class=\"row\">\n  <div class=\"col-md-6\">কন্টেন্ট</div>\n</div>",
+      "category": "Frontend Frameworks",
+      "translation": "বুটস্ট্র্যাপ"
+    },
+    {
+      "id": 70,
+      "word": "Lazy Load",
+      "definition": "পারফরম্যান্স অপ্টিমাইজেশন টেকনিক (অন-ডিমান্ড রিসোর্স লোডিং)। ইমেজ/ভিডিওর জন্য Intersection Observer API ব্যবহার। ভিউপোর্টে এন্ট্রি হলে লোড ট্রিগার। নেটওয়ার্ক ডেটা সেভিং এবং FCP (First Contentful Paint) উন্নত করে। নেটিভ HTML লোডিং অ্যাট্রিবিউট (loading=\"lazy\")।",
+      "example": "<img src=\"placeholder.jpg\" data-src=\"real-image.jpg\" class=\"lazyload\">",
+      "category": "Performance Optimization",
+      "translation": "লেইজি লোড"
+    },
+    {
+      "id": 71,
+      "word": "Mailchimp",
+      "definition": "ক্লাউড-ভিত্তিক ইমেইল মার্কেটিং প্ল্যাটফর্ম (অডিয়েন্স ম্যানেজমেন্ট + অটোমেশন)। ড্র্যাগ-অ্যান্ড-ড্রপ ইমেইল বিল্ডার ও ল্যান্ডিং পেজ টেমপ্লেট। ক্যাম্পেইন অ্যানালিটিক্স ও A/B টেস্টিং সুবিধা। API ইন্টিগ্রেশনের মাধ্যমে কাস্টম অটোমেশন ওয়র্কফ্লো।",
+      "example": "Mailchimp-এ কন্টাক্ট লিস্ট ইম্পোর্ট ও সেগমেন্টেশন",
+      "category": "Marketing Tools",
+      "translation": "মেইলচিম্প",
+      "isFavorite": false
+    },
+    {
+      "id": 72,
+      "word": "Binding",
+      "definition": "ভিউ কম্পোনেন্ট ও কোডের মধ্যে ডাইরেক্ট কানেকশন (Android ViewBinding)। লেআউট XML ফাইলের ভিউ রেফারেন্স অটো-জেনারেট ক্লাস। findViewById() এর বিকল্প হিসেবে টাইপ-সেফ অ্যাক্সেস। মেমরি লিক রিস্ক কমাতে Activity/Fragment লাইফসাইকেল অ্যাওয়্যার।",
+      "example": "ActivityMainBinding.inflate(layoutInflater)",
+      "category": "Android Development",
+      "translation": "বাইন্ডিং",
+      "isFavorite": true
+    },
+    {
+      "id": 73,
+      "word": "Data Binding",
+      "definition": "UI কম্পোনেন্ট ও ডাটা সোর্সের অটোমেটিক সিঙ্ক্রোনাইজেশন (Jetpack লাইব্রেরি)। লেআউট XML-এ @{} সিনট্যাক্স ব্যবহার। Observable ফিল্ডস ও LiveData এর সাথে ইন্টিগ্রেশন। Bidirectional বাইন্ডিং এর মাধ্যমে টু-ওয়ে ডাটা ফ্লো।",
+      "example": "<TextView android:text=\"@={viewmodel.userName}\"/>",
+      "category": "Android Architecture",
+      "translation": "ডাটা বাইন্ডিং",
+      "isFavorite": true
+    },
+    {
+      "id": 74,
+      "word": "Firebase",
+      "definition": "Google-এর BaaS (Backend as a Service) প্ল্যাটফর্ম। রিয়েলটাইম ডাটাবেস, অথেন্টিকেশন, Cloud Functions। Crashlytics এর মাধ্যমে ক্র্যাশ রিপোর্টিং। Firestore-এর ডকুমেন্ট-ওরিয়েন্টেড NoSQL ডাটাবেস।",
+      "example": "firebase.initializeApp() দিয়ে প্রজেক্ট সেটআপ",
+      "category": "Backend Services",
+      "translation": "ফায়ারবেস",
+      "isFavorite": true
+    },
+    {
+      "id": 75,
+      "word": "Supabase",
+      "definition": "ওপেন-সোর্স Firebase বিকল্প (PostgreSQL ভিত্তিক)। রিয়েলটাইম ডাটাবেস, Row Level Security। STORAGE API দিয়ে ফাইল ম্যানেজমেন্ট। JWT অথেন্টিকেশন ও SQL-এর পূর্ণ ক্ষমতা।",
+      "example": "supabase.from('users').select('*')",
+      "category": "Backend Services",
+      "translation": "সুপাবেস",
+      "isFavorite": false
+    },
+    {
+      "id": 77,
+      "word": "WordPress",
+      "definition": "ওপেন-সোর্স কন্টেন্ট ম্যানেজমেন্ট সিস্টেম (PHP+MySQL ভিত্তিক)। থিম ও প্লাগইন ইকোসিস্টেমের মাধ্যমে কাস্টমাইজেশন। REST API সমর্থন এবং Gutenberg ব্লক এডিটর। SEO অপ্টিমাইজেশন ও ই-কমার্স (WooCommerce) সুবিধা।",
+      "example": "wp-admin প্যানেলে নতুন পোস্ট তৈরি ও পাবলিশিং",
+      "category": "Web Development",
+      "translation": "ওয়ার্ডপ্রেস"
+    },
+    {
+      "id": 78,
+      "word": "Joomla",
+      "definition": "এন্টারপ্রাইজ-গ্রেড কন্টেন্ট ম্যানেজমেন্ট ফ্রেমওয়ার্ক (MVC আর্কিটেকচার)। এক্সটেনশন ম্যানেজার ও টেমপ্লেট ওভাররাইড সিস্টেম। ইউজার অ্যাকসেস লেভেল (ACL) কন্ট্রোল এবং মাল্টিলিঙ্গুয়াল সাপোর্ট।",
+      "example": "জুমলা কন্ট্রোল প্যানেলে মেনু ম্যানেজমেন্ট",
+      "category": "Web Development",
+      "translation": "জুমলা"
+    },
+    {
+      "id": 79,
+      "word": "Byte",
+      "definition": "ডিজিটাল ইনফরমেশনের মৌলিক ইউনিট (8 বিট সমন্বয়ে গঠিত)। ASCII ক্যারেক্টার রিপ্রেজেন্টেশন (1 বাইট = 1 ক্যারেক্টার)। মেমরি অ্যাড্রেসিং ও ফাইল স্টোরেজের ভিত্তি।",
+      "example": "চার বাইটে একটি 32-বিট পূর্ণসংখ্যা সংরক্ষণ",
+      "category": "Data Measurement",
+      "translation": "বাইট"
+    },
+    {
+      "id": 80,
+      "word": "Kilobyte",
+      "definition": "ডাটা মাপনের একক (1 KB = 1024 বাইট)। স্মল টেক্সট ফাইল বা লো-রেজোলিউশন ইমেজের আকার পরিমাপ। মেমরি কার্ড/র্যাম ক্যাপাসিটি নির্দেশনে ব্যবহৃত।",
+      "example": "একটি সাধারণ .txt ফাইল 2KB সাইজ",
+      "category": "Data Measurement",
+      "translation": "কিলোবাইট"
+    },
+    {
+      "id": 81,
+      "word": "Megabyte",
+      "definition": "ডাটা স্টোরেজ ইউনিট (1 MB = 1024 KB)। MP3 অডিও ফাইল বা মিডিয়াম-কোয়ালিটি ইমেজের সাইজ। RAM মেমরি অ্যালোকেশনের সাধারণ মাপকাঠি।",
+      "example": "একটি 3-মিনিটের MP3 গান ≈ 4MB",
+      "category": "Data Measurement",
+      "translation": "মেগাবাইট"
+    },
+    {
+      "id": 82,
+      "word": "Gigabyte",
+      "definition": "বৃহৎ ডাটা পরিমাপ (1 GB = 1024 MB)। HD মুভি/গেম বা সফটওয়্যার ইনস্টলারের সাইজ। SSD/HDD স্টোরেজ ক্যাপাসিটি নির্দেশনে স্ট্যান্ডার্ড ইউনিট।",
+      "example": "Windows 11 ইনস্টলেশন ≈ 20GB",
+      "category": "Data Measurement",
+      "translation": "গিগাবাইট"
+    },
+    {
+      "id": 83,
+      "word": "Terabyte",
+      "definition": "বৃহৎ স্কেল ডাটা স্টোরেজ (1 TB = 1024 GB)। সার্ভার-গ্রেড স্টোরেজ বা ডাটা সেন্টার ক্যাপাসিটি। 4K ভিডিও আর্কাইভ বা বিগ ডাটা অ্যানালিটিক্সে ব্যবহৃত।",
+      "example": "1TB HDD-তে ≈ 250 HD মুভি সংরক্ষণ",
+      "category": "Data Measurement",
+      "translation": "টেরাবাইট"
+    },
+    {
+      "id": 84,
+      "word": "Petabyte",
+      "definition": "এক্সাস্কেল ডাটা মাপন (1 PB = 1024 TB)। ক্লাউড স্টোরেজ সিস্টেম বা বৈজ্ঞানিক গবেষণা ডাটাসেট। গুগল/ফেসবুকের ডেইলি ডাটা প্রসেসিং ক্যাপাসিটি।",
+      "example": "Google-এর সমস্ত সার্চ ডাটা ≈ 100PB",
+      "category": "Data Measurement",
+      "translation": "পেটাবাইট"
+    },
+    {
+      "id": 85,
+      "word": "WiFi",
+      "definition": "ওয়্যারলেস নেটওয়ার্কিং প্রোটোকল (IEEE 802.11 স্ট্যান্ডার্ড)। 2.4GHz/5GHz ফ্রিকোয়েন্সি ব্যান্ডে অপারেশন। WPA3 এনক্রিপশন ও মেশ নেটওয়ার্কিং সমর্থন। রাউটার-ক্লায়েন্ট আর্কিটেকচারে ডেটা ট্রান্সমিশন।",
+      "example": "কফি শপে পাবলিক WiFi-তে কানেক্ট করা",
+      "category": "Networking",
+      "translation": "ওয়াইফাই"
+    },
+    {
+      "id": 86,
+      "word": "Cellular",
+      "definition": "মোবাইল নেটওয়ার্ক কমিউনিকেশন টেকনোলজি (4G LTE/5G NR)। সেল টাওয়ারের মাধ্যমে জিওগ্রাফিকাল কভারেজ। SIM কার্ড অথেন্টিকেশন ও ভয়েস/ডাটা প্যাকেট সুইচিং।",
+      "example": "সেলুলার ডাটা ব্যবহার করে ভিডিও স্ট্রিমিং",
+      "category": "Networking",
+      "translation": "সেলুলার"
     }
   ]
 }
